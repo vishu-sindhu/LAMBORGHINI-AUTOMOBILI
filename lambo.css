@@ -1,0 +1,82 @@
+*{ 
+    padding: 0px;
+   box-sizing: border-box;
+   margin: 0px;
+ }
+body{
+  background-image: url(img2.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.ah
+{
+  width: 100vw;
+  height: 17px;
+  background-repeat:no-repeat;  
+}
+.bh
+{width: 100vw;
+  height: 40px;
+  color: white;
+}
+.menu{
+  margin-top: 25px;
+  justify-content: flex-end;
+  margin-right: 60px;
+  display: flex;
+  list-style: none;
+  }
+.menu a{
+ text-decoration: none;
+  margin-right: 10px;
+  color: #f9f9f9;
+  margin: 10px;
+  font-size: 17px;
+}
+.menu a:hover{
+  color:#147152;
+  transition: 0.4s;
+}
+.btnreg{ 
+text-align: center;
+}
+
+.btn{
+  border-radius: 30px;
+  width: 400px;
+  height: 45px;
+  font-size: 18px;
+  border:solid #98eba2;
+  color: white;
+  background-color: rgb(14, 12, 12);
+  margin-top: 160px;
+  margin-right: 100px;
+  box-shadow: inset 0 0 0 0 #147152;
+  transition: ease-out 0.5s;
+  outline: none;
+}
+.btn:hover{
+  color: #147152;
+  border:solid #147152;
+  background-color: black;
+  cursor: pointer;
+  transition: 0.8s;
+  box-shadow:inset 213px 0 0 0 #000000;
+}
+.drp{
+list-style: none;
+}
+.drp li{
+display: none;
+}
+.drp:hover li{
+  display: block;
+ }
+ .lambologo{
+
+  margin-top: 5px;
+  margin-left: 10px;
+ }
+  
+
+
